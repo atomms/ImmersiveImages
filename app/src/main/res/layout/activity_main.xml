@@ -1,3 +1,4 @@
+<!--necesitamos el nameserver app-->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -24,6 +25,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <!--Para hacer la imagen circular la rodeamos con un Card, CornerRadius tiene que ser la mitad del ancho/alto-->
             <android.support.v7.widget.CardView
                 android:layout_width="200dp"
                 android:layout_height="200dp"
@@ -44,12 +46,7 @@
                    >
                 </ImageView>
             </android.support.v7.widget.CardView>
-<!--            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_alignParentTop="true"
-                android:id="@+id/imageView"
-                android:src="@drawable/photo2" />-->
+
             <LinearLayout android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
