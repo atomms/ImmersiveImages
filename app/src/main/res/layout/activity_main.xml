@@ -42,10 +42,7 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content">
 
-               <View
-                   android:layout_width="wrap_content"
-                   android:layout_height="300dp"
-                   android:background="@drawable/scrim"/>
+
 
                <ImageView
                    android:layout_height="300dp"
@@ -55,6 +52,11 @@
                    android:scaleType="centerCrop"
                    >
                </ImageView>
+
+               <View
+                   android:layout_width="wrap_content"
+                   android:layout_height="300dp"
+                   android:background="@drawable/scrim"/>
 
                <View
                    android:layout_width="wrap_content"
