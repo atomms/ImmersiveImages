@@ -44,6 +44,9 @@ import butterknife.OnClick;
 
 import static android.widget.ImageView.*;
 
+/**
+ * @author ernesto
+ */
 public class MainActivity extends AppCompatActivity {
     @InjectView(R.id.imageView)
     ImageView imageView;
